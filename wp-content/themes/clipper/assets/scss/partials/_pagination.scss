@@ -1,0 +1,43 @@
+
+/* Pagination
+----------------------------------------------- */
+
+.paging {
+	padding: 15px;
+	line-height: 3em;
+
+	.total {
+		padding-right: 10px;
+	}
+
+	.page-numbers {
+		padding: 6px 12px;
+		background-color: #FFF;
+		border: 1px solid $gainsboro;
+		margin-right: 2px;
+		color: #465360;
+		border-radius: 5px;
+		box-shadow: 1px 1px 1px $gainsboro;
+
+		&:hover {
+			border: 1px solid #BABABA;
+		}
+
+		&.current {
+			background-color: #BABABA;
+			border: 1px solid #BABABA;
+			color: #FFF;
+		}
+	}
+}
+
+
+/* image pagination */
+
+.image-navigation {
+	margin-bottom: 5px;
+}
+
+.nav-previous {
+	float: left;
+}

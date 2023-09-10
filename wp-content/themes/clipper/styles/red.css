@@ -1,0 +1,47 @@
+
+/* Red color scheme
+-------------------------------------------------------------- */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #850017;
+}
+
+a:hover,
+a:focus {
+	color: #6A0012;
+}
+
+.button {
+	background-color: #850017;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #6A0012;
+}
+
+.header #top-bar-primary {
+	background-color: #6e0417;
+}
+
+#header .menu-primary li {
+	background: none repeat scroll 0 0 #680315;
+}
+
+#header ul.menu ul.sub-menu {
+	background-color: #680315;
+}
+
+#sidebar .sidebox .cut {
+	background: url('../images/cut-red.png') no-repeat;
+}
+
+#footer .bar {
+	background: #58040a url('../images/bg-footer-red.gif') repeat-x;
+}

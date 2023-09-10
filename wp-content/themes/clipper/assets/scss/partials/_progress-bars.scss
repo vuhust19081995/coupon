@@ -1,0 +1,19 @@
+
+/* Progress Bars
+----------------------------------------------- */
+
+.progress.secondary .progress-meter {
+	background-color: $secondary-color;
+}
+
+.progress.success .progress-meter {
+	background-color: $success-color;
+}
+
+.progress.warning .progress-meter {
+	background-color: $warning-color;
+}
+
+.progress.alert .progress-meter {
+	background-color: $alert-color;
+}

@@ -1,0 +1,6 @@
+Modified		assets/js/src/theme.js
+Modified		assets/js/theme-scripts.js
+Modified		assets/js/theme-scripts.min.js
+Modified		includes/functions.php
+Modified		parts/content-featured-slick.php
+Modified		tests/lib/phpunit.xml

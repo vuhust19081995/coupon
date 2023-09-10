@@ -1,0 +1,47 @@
+
+/* Green color scheme
+-------------------------------------------------------------- */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #477400;
+}
+
+a:hover,
+a:focus {
+	color: #395D00;
+}
+
+.button {
+	background-color: #477400;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #395D00;
+}
+
+.header #top-bar-primary {
+	background-color: #3E6C04;
+}
+
+#header .menu-primary li {
+	background: none repeat scroll 0 0 #1A4D10;
+}
+
+#header ul.menu ul.sub-menu {
+	background-color: #1A4D10;
+}
+
+#sidebar .sidebox .cut {
+	background: url('../images/cut-green.png') no-repeat;
+}
+
+#footer .bar {
+	background: #265d05 url('../images/bg-footer-green.gif') repeat-x;
+}

@@ -1,0 +1,32 @@
+<?php
+/**
+ * Template for displaying Listing Form.
+ *
+ * @package Listing\Templates
+ * @author  AppThemes
+ * @since   Listing 1.0
+ */
+
+?>
+
+<form id="<?php echo esc_attr( "{$nonce_check}-{$action_check}" );?>" class="app-form <?php echo esc_attr( $form_class );?>" enctype="multipart/form-data" method="post" action="<?php echo esc_attr( $action_url ); ?>">
+
+	<?php
+	wp_nonce_field( $nonce_check, $action_check );
+
+	appthemes_listing_form( $listing, $form_fields, $app_listing->get_type() );
+	?>
+
+	<fieldset>
+		<?php
+		do_action( 'appthemes_listing_form', $listing );
+		?>
+		<div class="form-field">
+			<button class="button large success" type="submit">
+				<?php
+				echo esc_html( $action_text );
+				?>
+			</button>
+		</div>
+	</fieldset>
+</form>

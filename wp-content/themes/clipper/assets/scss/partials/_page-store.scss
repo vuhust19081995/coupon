@@ -1,0 +1,66 @@
+
+/* Store Page & Coupon Item
+----------------------------------------------- */
+
+.content-box .store-image {
+	margin-bottom: 10px;
+	border-radius: 3px;
+	background: none repeat scroll 0 0 #FFF;
+	border: 1px solid #D3D3D3;
+	padding: 4px;
+	background-color: #FFF;
+	box-shadow: 0 0 3px #BDBDBD;
+
+	.item-cover {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		padding: 10em 0;
+
+		@include breakpoint(medium) {
+			padding: 7em 0;
+		}
+
+		@include breakpoint(large) {
+			padding: 4em 0;
+		}
+	}
+}
+
+.content-box .store-name {
+	text-align: center;
+
+	a {
+		color: inherit;
+	}
+}
+
+.content-box .store img.store-thumb {
+	border: 1px solid #FFF;
+	margin: 4px;
+	box-shadow: 1px 1px 5px #B7B7B7;
+}
+
+.content-box .store img.store-thumb:hover {
+	opacity: 0.6;
+}
+
+.store .store-url {
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.head .rss-link {
+	float: right;
+}
+
+/* Google advertising block in store header */
+div.adsense {
+	margin-top: 20px;
+	text-align: center;
+
+	ins.adsbygoogle {
+		background: #FFF;
+	}
+}

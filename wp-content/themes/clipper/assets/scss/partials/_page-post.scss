@@ -1,0 +1,83 @@
+
+/* Pages & Posts
+----------------------------------------------- */
+
+.content-box .blog,
+#content article.attachment {
+	padding: 15px 20px;
+}
+
+.content-bar {
+	color: $suva-grey;
+
+	.entry-date i.fa {
+		padding: 0 7px 0 0;
+	}
+
+	.entry-category {
+		i.fa {
+			padding: 0 7px 0 0;
+		}
+
+		@include breakpoint(medium) {
+			margin-left: 10px;
+		}
+
+		a {
+			color: inherit;
+		}
+	}
+
+	.comment-count {
+		float: right;
+		i.fa {
+			padding: 0 7px 0 0;
+		}
+	}
+}
+
+p#comment-closed {
+	text-align: center;
+}
+
+.blog .post-password-form input.button {
+	margin-bottom: 0;
+}
+
+.box-holder .text-box {
+	font-family: $font-stack;
+	color: #555655;
+	padding: 20px 0;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.box-holder .text-footer {
+	font-family: $font-stack;
+	font-size: 12px;
+	padding-top: 20px;
+	border-top: 1px solid $gainsboro;
+}
+
+.box-holder .tags {
+	display: inline-block;
+	color: $nobel;
+
+	a {
+		color: inherit;
+	}
+	i.fa {
+		padding: 0 7px 0 0;
+	}
+}
+
+.box-holder .stats {
+	float: right;
+	color: $nobel;
+}
+
+.box-holder .stats i.fa {
+	padding: 0 7px 0 0;
+}

@@ -1,0 +1,47 @@
+
+/* Blue color scheme
+-------------------------------------------------------------- */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #0364A7;
+}
+
+a:hover,
+a:focus {
+	color: #025086;
+}
+
+.button {
+	background-color: #0364A7;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #025086;
+}
+
+.header #top-bar-primary {
+	background-color: #04486D;
+}
+
+#header .menu-primary li {
+	background: none repeat scroll 0 0 #043C49;
+}
+
+#header ul.menu ul.sub-menu {
+	background-color: #043C49;
+}
+
+#sidebar .box .cut {
+	background:url('../images/cut-blue.png') no-repeat;
+}
+
+#footer .bar {
+	background:#042956 url('../images/bg-footer-blue.gif') repeat-x;
+}

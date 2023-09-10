@@ -1,0 +1,47 @@
+
+/* Orange color scheme
+-------------------------------------------------------------- */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #BB3602;
+}
+
+a:hover,
+a:focus {
+	color: #962B02;
+}
+
+.button {
+	background-color: #BB3602;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #962B02;
+}
+
+.header #top-bar-primary {
+	background-color: #7C2C00;
+}
+
+#header .menu-primary li {
+	background: none repeat scroll 0 0 #551606;
+}
+
+#header ul.menu ul.sub-menu {
+	background-color: #551606;
+}
+
+#sidebar .sidebox .cut {
+	background: url('../images/cut-orange.png') no-repeat;
+}
+
+#footer .bar {
+	background: #601b05 url('../images/bg-footer-orange.gif') repeat-x;
+}

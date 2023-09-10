@@ -1,0 +1,51 @@
+
+/* Forms
+----------------------------------------------- */
+
+label {
+	color: $suva-grey;
+}
+
+select {
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+}
+
+[type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea,
+select {
+	font-size: inherit;
+	border-radius: 4px;
+	color: $suva-grey;
+	box-shadow: inset 0 5px 20px -5px rgba(0, 0, 0, 0.15);
+
+	&:focus {
+		background-color: $ghost-white;
+		border-color: $medium-gray;
+	}
+}
+
+form.gateway-select {
+	margin-top: 3em;
+}
+
+.form-field label.text-right {
+	@include breakpoint(medium down) {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		text-align: left;
+	}
+}

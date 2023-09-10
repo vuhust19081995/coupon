@@ -1,0 +1,83 @@
+
+/* Typography
+----------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Open Sans, sans-serif;
+	color: #43464A;
+	line-height: 1.2125em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+code,
+pre,
+kbd {
+	font-size: 90%;
+	border-radius: 4px;
+}
+
+pre {
+	background-color: #F8F8F8;
+	padding: 0.8em;
+	border-radius: 2px;
+	margin-bottom: 1.6em;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+blockquote,
+blockquote p {
+	line-height: 1.6;
+	color: #42424C;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 0 0 1.25em;
+	padding: 2em 1.25em 1em 1.1875em;
+	border-left: 7px solid #97D260;
+	background-color: #F4F5F9;
+}
+
+blockquote cite {
+	display: block;
+	font-style: normal;
+	font-weight: 600;
+	margin-top: 0.5em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #EEE;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+small {
+	font-size: 80%;
+	letter-spacing: 1px;
+}
+
+:focus {
+	outline: none;
+}

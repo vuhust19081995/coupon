@@ -1,0 +1,22 @@
+/*
+Theme Name: Clipper
+Theme URI: http://www.appthemes.com/themes/clipper/
+Author: AppThemes
+Author URI: https://www.appthemes.com/
+Description: A freelance marketplace theme for WordPress.
+Version: 2.0.10
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Domain Path: /languages/
+AppThemes ID: clipper
+*/
+
+/**
+ * This file is here to make WordPress happy. Do not modify.
+ *
+ * The actual stylesheets can be found in assets/css but this
+ * theme uses sass so they are compiled from assets/scss.
+ *
+ * If you want custom styles, create a child theme instead.
+ *
+ */

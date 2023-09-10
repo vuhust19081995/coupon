@@ -1,0 +1,57 @@
+
+/* Payment Page
+----------------------------------------------- */
+
+.redirect-text {
+	padding: 3em 0;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+
+	@include breakpoint(medium) {
+		padding: 5em 0;
+	}
+
+	&:before {
+		font-family: FontAwesome;
+		content: '\f1ed';
+		display: inline-block;
+		padding-right: 10px;
+		line-height: 1;
+		vertical-align: middle;
+	}
+}
+
+.order-gateway h2 {
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 26px;
+	margin: 0 0 30px;
+}
+
+.order-gateway input[type='text'] {
+	color: $suva-grey;
+	display: block;
+	font: 11px/13px Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-style: normal;
+	margin: 6px 0;
+	padding: 6px 5px;
+}
+
+.orders-legend {
+	margin-bottom: 18px;
+}
+
+.orders-legend span {
+	display: block;
+	font-size: 11px;
+	line-height: 1.3em;
+}
+
+.content-box .orders-legend h4 {
+	margin: 0;
+}
+
+#coupon-fields .featured-head {
+	float: left;
+}

@@ -1,0 +1,52 @@
+
+/* Single Coupon Page
+----------------------------------------------- */
+
+#main .content-box .coupon,
+#content-fullwidth .content-box .coupon {
+	padding: 10px 15px;
+}
+
+.item-panel .coupon-expires {
+	font-style: italic;
+}
+
+.coupon .content-bar .posted {
+	float: right;
+	margin: 2px 24px 0 0;
+}
+
+.coupon .content-bar .posted a {
+	color: #146CAA;
+	font-weight: bold;
+}
+
+.coupon img {
+	border-radius: 3px;
+	background: none repeat scroll 0 0 #FFF;
+	border: 1px solid #D3D3D3;
+	display: inline-block;
+	overflow: hidden;
+	padding: 4px;
+}
+
+.coupon .text-box .text-holder {
+	padding: 0 0 24px;
+}
+
+.coupon .text-box p {
+	margin: 0 0 15px;
+}
+
+.coupon .text-box p.edit {
+	margin: 0;
+}
+
+.coupon .text-box p span {
+	color: #677781;
+}
+
+.coupon p.expires,
+.coupon p.store {
+	padding-bottom: 5px;
+}

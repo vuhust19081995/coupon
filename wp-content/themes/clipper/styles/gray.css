@@ -1,0 +1,47 @@
+
+/* Gray color scheme
+-------------------------------------------------------------- */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #8F8F8F;
+}
+
+a:hover,
+a:focus {
+	color: #727272;
+}
+
+.button {
+	background-color: #8F8F8F;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #727272;
+}
+
+.header #top-bar-primary {
+	background-color: #444444;
+}
+
+#header .menu-primary li {
+	background: none repeat scroll 0 0 #282727;
+}
+
+#header ul.menu ul.sub-menu {
+	background-color: #282727;
+}
+
+#sidebar .sidebox .cut {
+	background: url('../images/cut-red.png') no-repeat;
+}
+
+#footer .bar {
+	background:#313131 url('../images/bg-footer-gray.gif') repeat-x;
+}

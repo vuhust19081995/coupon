@@ -509,3 +509,14 @@ aside.widget-footer {
 .content-box .grouplinks a {
 	border: 1px solid #028174;
 }
+
+.paging .page-numbers.current {
+	background-color: #048a7b;
+	border: 1px solid #048a7b;
+}
+
+.paging .page-numbers {
+	border: 1px solid #048a7b;
+	box-shadow: 1px 1px 1px #DBDBDB;
+	color: #048a7b;
+}

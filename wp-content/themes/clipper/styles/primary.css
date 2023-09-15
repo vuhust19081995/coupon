@@ -520,3 +520,35 @@ aside.widget-footer {
 	box-shadow: 1px 1px 1px #DBDBDB;
 	color: #048a7b;
 }
+
+.head.no-bg.store {
+	border-bottom: 4px dashed #014840;
+}
+
+.store-widget li::before {
+	color: #028174;
+}
+
+@media only screen and (max-width: 650px) {
+
+	#top-bar-primary > div {
+		flex-direction: column;
+	}
+
+	.top-bar-right {
+		width: 100%;
+	}
+
+	.top-bar-left {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.soc-container li {
+		margin-bottom: 10px;
+	}
+
+	.search-box {
+		width: 100%;
+	}
+}

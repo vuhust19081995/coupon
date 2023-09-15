@@ -3,8 +3,8 @@
 ----------------------------------------------- */
 
 .header #top-bar-primary {
-	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMykiLz48c3RvcCBvZmZzZXQ9IjAuMzIiIHN0b3AtY29sb3I9InJnYmEoMjU1LCAyNTUsIDI1NSwgMCkiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9InJnYmEoMjU1LCAyNTUsIDI1NSwgMCkiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwKSIgLz48cmVjdCB4PSItNjguOTk0OSUiIHk9Ii0xNDEuNDIxNCUiIHdpZHRoPSIxOTcuOTg5OSUiIGhlaWdodD0iMjgyLjg0MjclIiBmaWxsPSJ1cmwoI2cpIiAvPjwvc3ZnPg==); /* IE9 SVG */
-	background: radial-gradient(ellipse at 30% top, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 60%,rgba(255,255,255,0) 100%);
+	// background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMykiLz48c3RvcCBvZmZzZXQ9IjAuMzIiIHN0b3AtY29sb3I9InJnYmEoMjU1LCAyNTUsIDI1NSwgMCkiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9InJnYmEoMjU1LCAyNTUsIDI1NSwgMCkiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwKSIgLz48cmVjdCB4PSItNjguOTk0OSUiIHk9Ii0xNDEuNDIxNCUiIHdpZHRoPSIxOTcuOTg5OSUiIGhlaWdodD0iMjgyLjg0MjclIiBmaWxsPSJ1cmwoI2cpIiAvPjwvc3ZnPg==); /* IE9 SVG */
+	// background: radial-gradient(ellipse at 30% top, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 60%,rgba(255,255,255,0) 100%);
 }
 
 .header .header-branding-wrap {
@@ -40,7 +40,7 @@
 }
 
 .header .top-bar-right {
-	padding: 15px 0;
+	padding: 0;
 }
 
 #header .menu-primary {

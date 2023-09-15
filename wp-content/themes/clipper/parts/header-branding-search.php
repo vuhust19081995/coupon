@@ -16,12 +16,11 @@
 			<?php
 			if ( get_header_image() ) {
 				?>
-				<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<!-- <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="<?php header_image(); ?>" class="header-logo" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" />
-				</a>
+				</a> -->
 				<?php
 			}
-
 			if ( is_front_page() ) {
 				?>
 

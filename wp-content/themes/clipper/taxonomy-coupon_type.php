@@ -52,9 +52,9 @@ $term = get_queried_object();
 							) );
 						?>
 
-						<div class="counter">
+						<!-- <div class="counter">
 							<?php printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $wp_query->found_posts ) ) ); ?>
-						</div> <!-- .counter -->
+						</div> -->
 
 					</div> <!-- #head -->
 
@@ -65,43 +65,42 @@ $term = get_queried_object();
 			</div> <!-- #content-box -->
 
 
-			<div class="content-box">
+			<!-- <div class="content-box">
 
 				<div class="box-holder">
 
 					<div class="head">
 
-						<h2><?php _e( 'Unreliable Coupons', APP_TD ); ?></h2>
+						<h2><?php //_e( 'Unreliable Coupons', APP_TD ); ?></h2>
 
 						<?php
 							// show all unreliable coupons for this type and setup pagination
-							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-							$unreliable = array( 'unreliable' );
+							// $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+							// $unreliable = array( 'unreliable' );
 
-							if ( ! $clpr_options->prune_coupons ) {
-								$unreliable[] = APP_POST_STATUS_EXPIRED;
-							}
+							// if ( ! $clpr_options->prune_coupons ) {
+							// 	$unreliable[] = APP_POST_STATUS_EXPIRED;
+							// }
 
-							query_posts( array(
-								'post_type'           => APP_POST_TYPE,
-								'post_status'         => $unreliable,
-								APP_TAX_TYPE          => $term->slug,
-								'ignore_sticky_posts' => 1,
-								'paged'               => $paged,
-							) );
+							// query_posts( array(
+							// 	'post_type'           => APP_POST_TYPE,
+							// 	'post_status'         => $unreliable,
+							// 	APP_TAX_TYPE          => $term->slug,
+							// 	'ignore_sticky_posts' => 1,
+							// 	'paged'               => $paged,
+							// ) );
 						?>
 
 						<div class="counter-red">
-							<?php printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $wp_query->found_posts ) ) ); ?>
-						</div> <!-- .counter -->
-
-					</div> <!-- #head -->
+							<?php //printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $wp_query->found_posts ) ) ); ?>
+						</div>
+					</div>
 
 					<?php get_template_part( 'loop', 'coupon' ); ?>
 
-				</div> <!-- #box-holder -->
+				</div>
 
-			</div> <!-- #content-box -->
+			</div> -->
 
 		</main>
 

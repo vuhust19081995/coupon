@@ -443,7 +443,7 @@ function clpr_vote_box_badge( $post_id, $transient = null ) {
 
 		<div class="stripe-badge">
 			<span class="success"><?php _e( 'success', APP_TD ); ?></span>
-			<span class="thumbsup-stripe-badge stripe-badge-<?php echo $style; ?>"><span class="percent"><?php echo $percent; ?>%</span></span>
+			<span style="background-color: #028174;" class="thumbsup-stripe-badge stripe-badge-<?php echo $style; ?>"><span class="percent"><?php echo $percent; ?>%</span></span>
 		</div>
 
 		<div class="frame" id="vote_<?php the_ID(); ?>">
@@ -511,17 +511,23 @@ function clpr_votes_chart_numbers() {
 				$votes_down_percent = ( $votes_down / $votes_total * 100 );
 				?>
 
-				<div class="success progress" role="progressbar" tabindex="0">
-					<span class="progress-meter" style="width: <?php echo esc_attr( round( $votes_up_percent ) ); ?>%">
-					<p class="progress-meter-text"><?php echo number_format_i18n( $votes_up ); ?></p>
-					</span>
-				</div><!-- .progress -->
+				<div style="display: flex; margin-bottom: 10px;">
+					<i style="margin-right: 5px;" class="fa fa-thumbs-up" aria-hidden="true"></i>
+					<div style="flex: 1" class="success progress" role="progressbar" tabindex="0">
+						<span class="progress-meter" style="width: <?php echo esc_attr( round( $votes_up_percent ) ); ?>%">
+						<p class="progress-meter-text"><?php echo number_format_i18n( $votes_up ); ?></p>
+						</span>
+					</div>
+				</div>
 
-				<div class="alert progress" role="progressbar" tabindex="0">
-					<span class="progress-meter" style="width: <?php echo esc_attr( round( $votes_down_percent ) ); ?>%">
-					<p class="progress-meter-text"><?php echo number_format_i18n( $votes_down ); ?></p>
-					</span>
-				</div><!-- .progress -->
+				<div style="display: flex;">
+					<i style="margin-right: 5px;" class="fa fa-thumbs-down" aria-hidden="true"></i>
+					<div style="flex: 1" class="alert progress" role="progressbar" tabindex="0">
+						<span class="progress-meter" style="width: <?php echo esc_attr( round( $votes_down_percent ) ); ?>%">
+						<p class="progress-meter-text"><?php echo $votes_down ? number_format_i18n( $votes_down ) : ''; ?></p>
+						</span>
+					</div>
+				</div>
 		<?php } ?>
 
 	</div><!-- .results -->

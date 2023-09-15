@@ -54,7 +54,7 @@ global $current_user;
 			<ul class="user-details">
 				<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:<?php echo $current_user->user_email; ?>"><?php echo $current_user->user_email; ?></a></li>
 				<li><i class="fa fa-twitter-square" aria-hidden="true"></i><?php if ( $current_user->twitter_id ) { ?><a href="https://twitter.com/<?php echo urlencode( $current_user->twitter_id ); ?>" target="_blank"><?php _e( 'Twitter', APP_TD ); ?></a><?php } else { _e( 'N/A', APP_TD ); } ?></li>
-				<li><i class="fa fa-facebook-official" aria-hidden="true"></i><?php if ( $current_user->facebook_id ) { ?><a href="<?php echo appthemes_make_fb_profile_url( $current_user->facebook_id ); ?>" target="_blank"><?php _e( 'Facebook', APP_TD ); ?></a><?php } else { _e( 'N/A', APP_TD ); } ?></li>
+				<li><i class="fa fa-facebook-f" aria-hidden="true"></i><?php if ( $current_user->facebook_id ) { ?><a href="<?php echo appthemes_make_fb_profile_url( $current_user->facebook_id ); ?>" target="_blank"><?php _e( 'Facebook', APP_TD ); ?></a><?php } else { _e( 'N/A', APP_TD ); } ?></li>
 				<li><i class="fa fa-globe" aria-hidden="true"></i><?php if ( $current_user->user_url ) { ?><a href="<?php echo $current_user->user_url; ?>" target="_blank"><?php echo esc_url( $current_user->user_url ); ?></a><?php } else { _e( 'N/A', APP_TD ); } ?></li>
 			</ul>
 

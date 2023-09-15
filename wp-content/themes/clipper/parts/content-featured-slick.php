@@ -14,7 +14,10 @@ if ( ! $clpr_options->featured_slider ) {
 }
 ?>
 
-<div class="row">
+<div class="slick-container">
+	<div>
+		<?php get_template_part( 'searchform-coupon' ); ?>
+	</div>
 
 	<div class="large-12 columns">
 

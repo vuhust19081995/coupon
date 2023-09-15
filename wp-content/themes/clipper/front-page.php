@@ -30,9 +30,9 @@ $posts_count = appthemes_count_posts( APP_POST_TYPE, $post_status );
 
 						<h2><?php _e( 'New Coupons', APP_TD ); ?></h2>
 
-						<div class="counter">
-							<?php printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $posts_count ) ) ); ?>
-						</div> <!-- .counter -->
+						<!-- <div class="counter"> -->
+							<!-- <?php printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $posts_count ) ) ); ?> -->
+						<!-- </div> .counter -->
 
 					</div> <!-- #head -->
 

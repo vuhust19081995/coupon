@@ -13,6 +13,6 @@
 
 	<?php get_template_part( 'parts/nav-top-bar-primary' ); ?>
 
-	<?php get_template_part( 'parts/header-branding-search' ); ?>
+	<?php // get_template_part( 'parts/header-branding-search' ); ?>
 
 </header><!-- .header -->

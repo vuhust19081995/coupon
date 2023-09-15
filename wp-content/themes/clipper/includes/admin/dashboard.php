@@ -77,10 +77,10 @@ class CLPR_Theme_Dashboard extends APP_DashBoard {
 		}
 
 		if ( isset( $listings['unreliable'] ) ) {
-			$stats[ __( 'Unreliable Coupons', APP_TD ) ] = array(
-				'text' => $listings['unreliable'],
-				'url'  => add_query_arg( array( 'post_type' => APP_POST_TYPE, 'post_status' => 'unreliable' ), admin_url( 'edit.php' ) ),
-			);
+			// $stats[ __( 'Unreliable Coupons', APP_TD ) ] = array(
+			// 	'text' => $listings['unreliable'],
+			// 	'url'  => add_query_arg( array( 'post_type' => APP_POST_TYPE, 'post_status' => 'unreliable' ), admin_url( 'edit.php' ) ),
+			// );
 		} else {
 			$stats[ __( 'Unreliable Coupons', APP_TD ) ] = 0;
 		}

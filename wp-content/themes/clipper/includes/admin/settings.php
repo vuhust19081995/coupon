@@ -87,6 +87,7 @@ class CLPR_Theme_Settings_General extends APP_Tabs_Page {
 					'type'   => 'select',
 					'name'   => 'stylesheet',
 					'values' => array(
+						'primary.css'    => __( 'Primary Theme', APP_TD ),
 						'red.css'    => __( 'Red Theme', APP_TD ),
 						'blue.css'   => __( 'Blue Theme', APP_TD ),
 						'orange.css' => __( 'Orange Theme', APP_TD ),
@@ -190,13 +191,13 @@ class CLPR_Theme_Settings_General extends APP_Tabs_Page {
 					'desc'  => __( "Don't show the coupon code until after they click on it", APP_TD ),
 					'tip'   => '',
 				),
-				array(
-					'title' => __( 'Unreliable Coupons', APP_TD ),
-					'name'  => 'exclude_unreliable',
-					'type'  => 'checkbox',
-					'desc'  => __( 'Exclude unreliable coupons from the home page', APP_TD ),
-					'tip'   => '',
-				),
+				// array(
+				// 	'title' => __( 'Unreliable Coupons', APP_TD ),
+				// 	'name'  => 'exclude_unreliable',
+				// 	'type'  => 'checkbox',
+				// 	'desc'  => __( 'Exclude unreliable coupons from the home page', APP_TD ),
+				// 	'tip'   => '',
+				// ),
 				array(
 					'title' => __( 'Unreliable Featured Coupons', APP_TD ),
 					'name'  => 'exclude_unreliable_featured',

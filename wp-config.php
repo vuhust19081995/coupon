@@ -5,7 +5,7 @@
 define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
 // END iThemes Security - Do not modify or remove this line
 
-define( 'ITSEC_ENCRYPTION_KEY', 'Kix7R0B9eTUmc21+KTlTblRaN2ApQiU8UUQ3fSF7e3VYaW5zSHteVmRMNXtDZ3daU241O0JfYTJuME5JY0lNIw==' );
+define( 'ITSEC_ENCRYPTION_KEY', 'W2h7emZxIHxHdnxMJVZMVWRSeCt9XjBGfld+WE8zRTIlfjF3Tnc8eVZKclA8dDN4SW1rLS5ETD5eWE00O1U3ZQ==' );
 
 /**
  * The base configuration for WordPress
@@ -31,10 +31,12 @@ define( 'ITSEC_ENCRYPTION_KEY', 'Kix7R0B9eTUmc21+KTlTblRaN2ApQiU8UUQ3fSF7e3VYaW5
 define( 'DB_NAME', 'coupon-db' );
 
 /** Database username */
-define( 'DB_USER', 'vunv_coupon' );
+define( 'DB_USER', 'root' );
+// define( 'DB_USER', 'vunv_coupon' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'vunvcouponpass' );
+define( 'DB_PASSWORD', 'root' );
+// define( 'DB_PASSWORD', 'vunvcouponpass' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -56,15 +58,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '$X0pG_uU]csZYpscEHat--$W<PE~NCvu?P(LU(9 [RC+kgPRN0F:Jm^6:h.j<$D_');
-define('SECURE_AUTH_KEY',  '#2-A@%3Ht@+hMo&+b)/0xp,VWEH4gs}Ky<kP//i.8o*3bSg@9!lIz$<ACK}Ft][i');
-define('LOGGED_IN_KEY',    'X^^1Z:W?x:;!dK_$-EGQZjP&Bi8;&q;}LgMMWbqLM33$aD5j-nsq2v%uAgule0Zx');
-define('NONCE_KEY',        '/4f)W[_51I^P&1)|g?|6~/qb 0[o]I,%tD!Kf*^ID4K7^CA@*[NUHK;_ii&N>5Ft');
-define('AUTH_SALT',        'Kj5Z|vhgE)J4Ul9_#ywwi3599`-ApA-Cy865@C6R_@tr%)vX^^gU`t.?<W+Z-}OI');
-define('SECURE_AUTH_SALT', '-CmEH?3a|tzS;sz3g2QIktam+L[8H%aBl^ <S7k;+{~-)-83Xx,[aftUiN].~PDY');
-define('LOGGED_IN_SALT',   'rFTj)ZwRI>+o2U1!MkxEh[r}DTJ>5#Pn(IR(STc@RcI|#4M~3H>RT6q@pyMT4/bQ');
-define('NONCE_SALT',       '8<A;6%XxVf)ljI<_/`VletE|QctuZ0{N()LWWIoxlEWRpc~ARSYbdY}qg+;aB.!s');
-
+define('AUTH_KEY',         '+TM7yz0FHNq}C:x{-|5-N2C~1BBG3xejv8:]LG!Y7fu0dOL3E5s}S4eAXy+>/S)F');
+define('SECURE_AUTH_KEY',  '7=/2Nd?]U3C`(@LwDc+5k70`zm=8(numcZMnrRr7w*^3GvmPe1byfw*bH @HmQ>/');
+define('LOGGED_IN_KEY',    '{Qr>!KI>>cwu+7<-c1;t/7-2sd|fm>3+P/+DXqQ2%J(~-Gz22bspze1?j6 hM5Y9');
+define('NONCE_KEY',        '>|hv[wCK|=|Xh&0)a*B+]-L|dVr|*UCGOypX`luT}g+GTi]6rBcvxu1cV]l*?rI*');
+define('AUTH_SALT',        'A>YNC!6-78R++d2Z/+yK~G~~0us&vrs1k~`zK8n[Vx8:S@X}nx!F:RN6m2m3.8Aa');
+define('SECURE_AUTH_SALT', 'J{!1!u;{u%-F$n|%WI@&n7Ur6BC5@Ck|h14_vrABTgVjT:n%+2^x@f$.|r[g,{s.');
+define('LOGGED_IN_SALT',   'B|SyOkq-CGa{R|uUs2NGk|E#KX[]kd:b=|+H|d}7Q1+6OcjmF&q}_/nq#H@?FW^&');
+define('NONCE_SALT',       'J2{;<VAY8;FIww%Qy+dyt8(}&xD-+d|H7ci9FeR5br04X,o0jpv|_!Z$eyP|Os@^');
 /**#@-*/
 
 /**
@@ -102,3 +103,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+//http://localhost/wp-admin/admin.php?page%20=app-setup&firstrun%20=1

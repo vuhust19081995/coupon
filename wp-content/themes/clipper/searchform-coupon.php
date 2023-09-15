@@ -19,17 +19,7 @@
 <div class="search-box">
 
 	<form method="get" class="search" action="<?php echo home_url( '/' ); ?>" role="search">
-
-		<div class="input-group">
-
-			<input type="search" id="search-field" class="input-group-field" id="s" name="s" value="<?php echo esc_attr( $search_query ); ?>" placeholder="<?php echo esc_attr_x( 'Search Coupons', 'placeholder', APP_TD ); ?>" />
-
-			<div class="input-group-button">
-				<button type="submit" class="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-			</div>
-
-		</div>
-
+			<input type="search" id="search-field" id="s" name="s" value="<?php echo esc_attr( $search_query ); ?>" placeholder="<?php echo esc_attr_x( 'Search Coupons', 'placeholder', APP_TD ); ?>" />
 		<input type="hidden" name="post_type" value="<?php echo esc_attr( APP_POST_TYPE ); ?>">
 
 	</form>

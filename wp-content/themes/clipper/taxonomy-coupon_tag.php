@@ -52,9 +52,9 @@ $term = get_queried_object();
 							) );
 						?>
 
-						<div class="counter">
+						<!-- <div class="counter">
 							<?php printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $wp_query->found_posts ) ) ); ?>
-						</div> <!-- .counter -->
+						</div> -->
 
 					</div> <!-- #head -->
 
@@ -65,7 +65,7 @@ $term = get_queried_object();
 			</div> <!-- #content-box -->
 
 
-			<div class="content-box">
+			<!-- <div class="content-box">
 
 				<div class="box-holder">
 
@@ -92,16 +92,16 @@ $term = get_queried_object();
 						?>
 
 						<div class="counter-red">
-							<?php printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $wp_query->found_posts ) ) ); ?>
-						</div> <!-- .counter -->
+							<?php //printf( __( 'Total: %s', APP_TD ), html( 'span', number_format_i18n( $wp_query->found_posts ) ) ); ?>
+						</div>
 
-					</div> <!-- #head -->
+					</div>
 
 					<?php get_template_part( 'loop', 'coupon' ); ?>
 
-				</div> <!-- #box-holder -->
+				</div>
 
-			</div> <!-- #content-box -->
+			</div> -->
 
 		</main>
 

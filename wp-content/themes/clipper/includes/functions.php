@@ -792,7 +792,7 @@ function clpr_terms_list( $args = array() ) {
 		$navigation .= html_link( '#' . $options['class'] . '-' . $letter_id, $letter );
 
 		$list .= '<h2 class="' . $options['class'] . '" id="' . $options['class'] . '-' . $letter_id . '">' . $letter . '</h2>';
-		$list .= '<ul class="' . $options['class'] . '">';
+		$list .= '<div class="' . $options['class'] . '">';
 
 		foreach ( $terms as $term ) {
 
@@ -801,14 +801,21 @@ function clpr_terms_list( $args = array() ) {
 			}
 
 			$letter_items = true;
-			$name         = apply_filters( 'the_title', $term->name );
-			$link         = html_link( get_term_link( $term, $options['taxonomy'] ), $name );
-			$count        = ( $options['count'] ) ? ' (' . intval( $term->count ) . ')' : '';
+			// $name         = apply_filters( 'the_title', $term->name );
+			$store_image_id = (array) clpr_get_store_meta( $term->term_id, 'clpr_store_image_id', true );
+			$store_image_id = array_shift( $store_image_id );
+			// $store_image_src = wp_get_attachment_image_src( $store_image_id);
+			$store_image_src = clpr_get_store_image_url( $term->term_id, 'term_id', 150 );
+			$img = html('img', ['src' => $store_image_src, 'store-thumbnail-img']);
+			$div = html('div', ['class' => 'store-thumpnail'], $img);
+			$link         = html_link( get_term_link( $term, $options['taxonomy'] ), $div );
+			// $count        = ( $options['count'] ) ? ' (' . intval( $term->count ) . ')' : '';
 
-			$list .= html( 'li', $link . $count );
+			// $list .= html( 'li', $link . $count );
+			$list .= html( 'div', $link );
 		}
 
-		$list .= '</ul>';
+		$list .= '</div>';
 
 		if ( ! $letter_items ) {
 			$list       = $old_list;

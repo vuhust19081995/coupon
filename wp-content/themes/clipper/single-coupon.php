@@ -7,7 +7,6 @@
  * @since   Clipper 1.0.0
  */
 ?>
-
 <div class="content-area row">
 
 	<div id="primary" class="medium-8 columns">

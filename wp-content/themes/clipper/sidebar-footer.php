@@ -16,7 +16,7 @@ $footer_sidebar_class = clpr_footer_sidebar_class();
 ?>
 
 <?php if ( is_active_sidebar( 'sidebar_footer' ) ) : ?>
-	<div id="footer-widget-first" class="widget-area <?php echo esc_attr( $footer_sidebar_class ); ?> columns" role="complementary">
+	<div style="display: flex;" id="footer-widget-first" class="widget-area <?php echo esc_attr( $footer_sidebar_class ); ?> columns" role="complementary">
 		<?php dynamic_sidebar( 'sidebar_footer' ); ?>
 	</div> <!-- .widget-area -->
 <?php endif; ?>

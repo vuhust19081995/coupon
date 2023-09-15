@@ -32,9 +32,9 @@ $withcomments = 1;
 
 						</div> <!-- .store-image -->
 
-						<div class="store-name">
+						<!-- <div class="store-name">
 							<?php echo get_the_term_list( $post->ID, APP_TAX_STORE, ' ', ', ', '' ); ?>
-						</div> <!-- .store-name -->
+						</div> -->
 
 					</div> <!-- .store-holder -->
 
@@ -70,7 +70,7 @@ $withcomments = 1;
 
 							<?php clpr_vote_box_badge( $post->ID ); ?>
 
-						</div> <!-- .columns -->
+						</div>
 
 
 					</div> <!-- .row -->
@@ -89,7 +89,7 @@ $withcomments = 1;
 
 			<?php appthemes_after_post_content(); ?>
 
-			<div class="item-meta">
+			<!-- <div class="item-meta">
 
 				<div class="row">
 
@@ -98,9 +98,9 @@ $withcomments = 1;
 						<div class="taxonomy">
 							<p class="category"><span><?php _e( 'Category:', APP_TD ); ?></span> <?php echo get_the_term_list( $post->ID, APP_TAX_CAT, ' ', ', ', '' ); ?></p>
 							<p class="tag"><span><?php _e( 'Tags:', APP_TD ); ?></span> <?php echo get_the_term_list( $post->ID, APP_TAX_TAG, ' ', ', ', '' ); ?></p>
-						</div> <!-- .taxonomy -->
+						</div>
 
-					</div><!-- .columns -->
+					</div>
 
 					<div class="small-6 columns">
 
@@ -113,13 +113,13 @@ $withcomments = 1;
 									<span><?php esc_html_e( 'Expires:', APP_TD ); ?></span> <?php esc_html_e( 'Never', APP_TD ); ?>
 								<?php } ?>
 							</p>
-						</div> <!-- .calendar -->
+						</div>
 
-					</div><!-- .columns -->
+					</div>
 
-				</div><!-- .row -->
+				</div>
 
-			</div><!-- .item-meta -->
+			</div> -->
 
 
 		<div class="item-footer">

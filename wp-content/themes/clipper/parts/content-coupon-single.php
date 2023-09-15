@@ -101,13 +101,13 @@
 
 									</div> <!-- #coupon-main -->
 
-							</div> <!-- .columns -->
+							</div>
 
 							<div class="large-4 medium-12 columns">
 
 								<?php clpr_vote_box_badge( $post->ID ); ?>
 
-							</div> <!-- .columns -->
+							</div>
 
 						</div> <!-- .row -->
 
